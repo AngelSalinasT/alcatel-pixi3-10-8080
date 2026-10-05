@@ -1,0 +1,13 @@
+--- mtkclient/Library/Connection/seriallib.py	2026-10-04 18:37:10
++++ mtkclient/Library/Connection/seriallib.py	2026-10-04 18:37:10
+@@ -203,8 +203,8 @@
+         # print("Reading {} bytes".format(resplen))
+         if timeout == 0 and maxtimeout != 0:
+             timeout = maxtimeout / 1000  # Some code calls this with ms delays, some with seconds.
+-        if timeout < 0.02:
+-            timeout = 0.02
++        if timeout < 1.0:
++            timeout = 1.0  # parche local: en macOS 20 ms no alcanzan y se desincroniza
+         if resplen is None:
+             resplen = self.device.in_waiting
+         # if resplen <= 0:

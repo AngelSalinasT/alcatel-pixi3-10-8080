@@ -1,0 +1,1 @@
+console=tty0 console=ttyMT1,921600n1 root=/dev/ram vmalloc=496M slub_max_order=0 slub_debug=O coherent_pool=3240K lcm=1-rm68200_txd_wxga_pixi3 fps=5497 vram=27262976 bootprof.pl_t=691 bootprof.lk_t=2313 printk.disable_uart=1 boot_reason=0 androidboot.serialno=XXXXXXXXXXXXXXX androidboot.bootreason=power_key

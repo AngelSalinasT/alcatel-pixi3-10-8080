@@ -1,0 +1,19 @@
+# Lista blanca: se ignora todo y solo se publica lo que se nombra aquí.
+# La carpeta de trabajo tiene firmware, ROMs y volcados con datos de la unidad
+# que no deben subirse.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/docs/
+!/herramientas/
+!/kernel/
+!/reconstruido/
+!/datos-hardware/
+
+# copias completas de archivos de mtkclient; solo se publican los parches
+/herramientas/parches-mtkclient/*.parchado
+
+__pycache__/
+.DS_Store
+._*

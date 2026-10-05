@@ -1,0 +1,31 @@
+Part_Name	Size	StartAddr	Type	MapTo	Region
+preloader    0x0000000000040000   0x0000000000000000   2   /dev/misc-sd     BOOT_1
+mbr          0x0000000000080000   0x0000000000000000   2   /dev/block/mmcblk0     USER
+ebr1         0x0000000000080000   0x0000000000080000   2   /dev/block/mmcblk0p1   USER
+pro_info     0x0000000000300000   0x0000000000100000   2   /dev/block/mmcblk0     USER
+nvram        0x0000000000500000   0x0000000000400000   2   /dev/block/mmcblk0     USER
+protect_f    0x0000000000a00000   0x0000000000900000   2   /dev/block/mmcblk0p2   USER
+protect_s    0x0000000000a00000   0x0000000001300000   2   /dev/block/mmcblk0p3   USER
+seccfg       0x0000000000020000   0x0000000001d00000   2   /dev/block/mmcblk0     USER
+uboot        0x0000000000060000   0x0000000001d20000   2   /dev/block/mmcblk0     USER
+bootimg      0x0000000001000000   0x0000000001d80000   2   /dev/block/mmcblk0     USER
+recovery     0x0000000001000000   0x0000000002d80000   2   /dev/block/mmcblk0     USER
+sec_ro       0x0000000000600000   0x0000000003d80000   2   /dev/block/mmcblk0p4   USER
+misc         0x0000000000080000   0x0000000004380000   2   /dev/block/mmcblk0     USER
+logo         0x0000000000300000   0x0000000004400000   2   /dev/block/mmcblk0     USER
+ebr2         0x0000000000080000   0x0000000004700000   2   /dev/block/mmcblk0     USER
+custpack     0x000000003e800000   0x0000000004780000   2   /dev/block/mmcblk0p5   USER
+expdb        0x0000000000a00000   0x0000000042f80000   2   /dev/block/mmcblk0     USER
+tee1         0x0000000000500000   0x0000000043980000   2   /dev/block/mmcblk0     USER
+tee2         0x0000000000500000   0x0000000043e80000   2   /dev/block/mmcblk0     USER
+kb           0x0000000000100000   0x0000000044380000   2   /dev/block/mmcblk0     USER
+dkb          0x0000000000100000   0x0000000044480000   2   /dev/block/mmcblk0     USER
+android      0x0000000057800000   0x0000000044580000   2   /dev/block/mmcblk0p6   USER
+cache        0x0000000010000000   0x000000009bd80000   2   /dev/block/mmcblk0p7   USER
+usrdata      0x00000002fe180000   0x00000000abd80000   2   /dev/block/mmcblk0p8   USER
+bmtpool      0x0000000001500000   0x0000000001500000   2   /dev/block/mmcblk0     USER
+Part_Name:Partition name you should open;
+Size:size of partition
+StartAddr:Start Address of partition;
+Type:Type of partition(MTD=1,EMMC=2)
+MapTo:actual device you operate

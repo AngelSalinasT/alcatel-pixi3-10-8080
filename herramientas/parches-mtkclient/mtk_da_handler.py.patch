@@ -1,0 +1,15 @@
+--- mtkclient/Library/DA/mtk_da_handler.py	2026-10-04 18:43:58
++++ mtkclient/Library/DA/mtk_da_handler.py	2026-10-04 18:43:58
+@@ -112,6 +112,12 @@
+         if directory is None:
+             directory = "."
+         mtk.port.cdc.connected = mtk.port.cdc.connect()
++        # parche local: por puerto serie, si ya hay un DA cargado (.state), reusar la sesion sin nuevo saludo
++        if mtk.serialportname is not None and mtk.port.cdc.connected and os.path.exists(os.path.join(directory, ".state")):
++            self.mtk.config.hwparam_path = directory
++            mtk.daloader.reinit()
++            mtk.reinited = True
++            return mtk
+         if mtk.port.cdc.connected is None or not mtk.port.cdc.connected or mtk.serialportname is not None:
+             mtk.preloader.init(directory=directory)
+             if self.config.internal_flash and self.mtk.config.iot:

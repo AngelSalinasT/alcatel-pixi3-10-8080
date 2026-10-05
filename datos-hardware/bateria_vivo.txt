@@ -1,0 +1,107 @@
+/sys/bus/i2c/devices/1-006a/modalias = i2c:bq24158 
+/sys/bus/i2c/devices/1-006a/name = bq24158 
+/sys/bus/i2c/devices/1-006a/uevent = DRIVER=bq24158 MODALIAS=i2c:bq24158 
+/sys/devices/platform/battery/ADC_Channel_0_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_0_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_10_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_10_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_11_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_11_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_12_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_12_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_13_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_13_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_1_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_1_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_2_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_2_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_3_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_3_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_4_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_4_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_5_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_5_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_6_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_6_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_7_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_7_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_8_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_8_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_9_Offset = 0 
+/sys/devices/platform/battery/ADC_Channel_9_Slope = 1000 
+/sys/devices/platform/battery/ADC_Channel_Is_Calibration = 0 
+/sys/devices/platform/battery/ADC_Charger_Voltage = 4787 
+/sys/devices/platform/battery/Charger_TopOff_Value = 4110 
+/sys/devices/platform/battery/Charger_Type = 2 
+/sys/devices/platform/battery/Charging_CallState = 0 
+/sys/devices/platform/battery/FG_Battery_CurrentConsumption = 4294959171 
+/sys/devices/platform/battery/FG_SW_CoulombCounter = 4294964251 
+/sys/devices/platform/battery/Power_Off_Voltage = 3400 
+/sys/devices/platform/battery/Power_On_Voltage = 3400 
+/sys/devices/platform/battery/chg_enable = 1 
+/sys/devices/platform/battery/modalias = platform:battery 
+/sys/devices/platform/battery/uevent = DRIVER=battery MODALIAS=platform:battery 
+/sys/devices/platform/battery_meter/FG_Current = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_car = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_current = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_qmax = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_r = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_temp = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_volt = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_zcv = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_d0 = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_d1 = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_percentage = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_percentage_fg = 0 
+/sys/devices/platform/battery_meter/FG_g_fg_dbg_percentage_voltmode = 0 
+/sys/devices/platform/battery_meter/modalias = platform:battery_meter 
+/sys/devices/platform/battery_meter/uevent = DRIVER=battery_meter MODALIAS=platform:battery_meter 
+/sys/devices/platform/mt-battery/BN_TestMode = 0 
+/sys/devices/platform/mt-battery/BatteryNotify = 0 
+/sys/devices/platform/mt-battery/modalias = platform:mt-battery 
+/sys/devices/platform/mt-battery/uevent = DRIVER=mt-battery MODALIAS=platform:mt-battery 
+/sys/devices/platform/bq24158-user/bq24158_access = 0 
+/sys/devices/platform/bq24158-user/modalias = platform:bq24158-user 
+/sys/devices/platform/bq24158-user/uevent = DRIVER=bq24158-user MODALIAS=platform:bq24158-user 
+/sys/class/power_supply/ac/online = 0 
+/sys/class/power_supply/ac/type = Mains 
+/sys/class/power_supply/ac/uevent = POWER_SUPPLY_NAME=ac POWER_SUPPLY_ONLINE=0 
+/sys/class/power_supply/battery/BatteryAverageCurrent = 585 
+/sys/class/power_supply/battery/BatterySenseVoltage = 3913 
+/sys/class/power_supply/battery/ChargerVoltage = 4787 
+/sys/class/power_supply/battery/ISenseVoltage = 3945 
+/sys/class/power_supply/battery/InstatVolt = 3913 
+/sys/class/power_supply/battery/TempBattVoltage = 538 
+/sys/class/power_supply/battery/TemperatureR = 7204 
+/sys/class/power_supply/battery/adjust_power = -1 
+/sys/class/power_supply/battery/batt_temp = 260 
+/sys/class/power_supply/battery/batt_vol = 3913 
+/sys/class/power_supply/battery/capacity = 42 
+/sys/class/power_supply/battery/capacity_smb = 50 
+/sys/class/power_supply/battery/health = Good 
+/sys/class/power_supply/battery/present = 1 
+/sys/class/power_supply/battery/present_smb = 0 
+/sys/class/power_supply/battery/status = Charging 
+/sys/class/power_supply/battery/status_smb = Not charging 
+/sys/class/power_supply/battery/technology = Li-ion 
+/sys/class/power_supply/battery/type = Battery 
+/sys/class/power_supply/battery/uevent = POWER_SUPPLY_NAME=battery POWER_SUPPLY_STATUS=Charging POWER_SUPPLY_HEALTH=Good POWER_SUPPLY_PRESENT=1 POWER_SUPPLY_TECHNOLOGY=Li-ion POWER_SUPPLY_CAPACITY=42 POWER_SUPPLY_BATT_VOL=3913 POWER_SUPPLY_BATT_TEMP=260 POWER_SUPPLY_TEMPERATURER=7204 POWER_SUPPLY_TEMPBATTVOLTAGE=538 POWER_SUPPLY_INSTATVOLT=3913 POWER_SUPPLY_BATTERYAVERAGECURRENT=585 POWER_SUPPLY_BATTERYSENSEVOLTAGE=3913 POWER_SUPPLY_ISEN
+/sys/class/power_supply/usb/online = 1 
+/sys/class/power_supply/usb/type = USB 
+/sys/class/power_supply/usb/uevent = POWER_SUPPLY_NAME=usb POWER_SUPPLY_ONLINE=1 
+/sys/class/power_supply/wireless/online = 0 
+/sys/class/power_supply/wireless/type = Wireless 
+/sys/class/power_supply/wireless/uevent = POWER_SUPPLY_NAME=wireless POWER_SUPPLY_ONLINE=0 
+---PLATFORM
+Accdet_Driver AudDrv_driver_device.0 AudioMTKBTCVSD.0 CLK M4U_device.0 MTK_GCPU MTK_SMI.0 USB_ACM_Temp_Driver alarmtimer android_pmem.1 battery battery_meter bq24158-user camera-isp.0 camera-pipemgr camera-sysram.0 dbg_reg_dump.0 devapc dummy_cam_cal.0 dummy_char.0 dummy_eeprom.0 eemcs-helper.0 fm gsensor hdmitx.0 hid-keyboard hwmsensor image_sensor image_sensor_bus2 ion-drv.0 kd_camera_flashlight.0 leds-mt65xx lens_actuator m_acc_pl m_alsps_pl m_baro_pl m_batch_pl m_gyro_pl m_mag_pl m_temp_pl mali-utgard.0 masp msensor mt-auxadc mt-battery mt-cpufreq mt-freqhopping mt-gpio mt-i2c.0 mt-i2c.1 mt-i2c.2 mt-i2cd.0 mt-pmic mt-ptp mt-pwm.0 mt-rtc mt-wifi mt3326-gps mt_usb mtk-kpd mtk-msdc.0 mtk-msdc.1 mtk-spm-mcdi mtk-therm-mon mtk-thermal mtk-tpd mtk-uart.0 mtk-uart.1 mtk-uart.2 mtk-uart.3 mtk-wdt.0 mtk_btif mtk_disp.0 mtk_jpeg.0 mtk_ovl.0 mtk_tz mtk_vibrator mtkfb.0 mtkfb_vsync.0 nop_usb_xceiv orientation pmic_mt6323 power regulatory.0 swsusp-helper uevent uibc 
+---DMESG
+<5>[ 1159.026219] (1)[5101:sh][EM] show_ADC_Charger_Voltage : 4787
+<5>[ 1159.032339] (1)[5104:sh][EM] Charger_TopOff_Value : 4110
+<5>[ 1159.041310] (3)[5107:sh]CHARGER_TYPE = 2
+<5>[ 1159.115048] (1)[5137:sh][FG] g_fg_dbg_bat_car : 0
+<5>[ 1159.121668] (0)[5140:sh][FG] g_fg_dbg_bat_current : 0
+<5>[ 1159.130676] (3)[5146:sh][FG] g_fg_dbg_bat_qmax : 0
+<5>[ 1159.136360] (3)[5152:sh][FG] g_fg_dbg_bat_r : 0
+<5>[ 1159.142574] (0)[5158:sh][FG] g_fg_dbg_bat_temp : 0
+<5>[ 1159.150746] (3)[5161:sh][FG] g_fg_dbg_bat_volt : 0
+<5>[ 1159.156555] (1)[5164:sh][FG] g_fg_dbg_bat_zcv : 0

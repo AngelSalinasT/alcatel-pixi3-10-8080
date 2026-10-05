@@ -1,0 +1,12 @@
+/sys/bus/i2c/devices/0-0018: FM50AF driver=../../../../../bus/i2c/drivers/FM50AF
+/sys/bus/i2c/devices/0-007f: kd_camera_hw driver=../../../../../bus/i2c/drivers/kd_camera_hw
+/sys/bus/i2c/devices/1-0038: fts driver=
+/sys/bus/i2c/devices/1-0050: dummy_eeprom driver=../../../../../bus/i2c/drivers/dummy_eeprom
+/sys/bus/i2c/devices/1-0055: dummy_cam_cal driver=../../../../../bus/i2c/drivers/dummy_cam_cal
+/sys/bus/i2c/devices/1-005d: gt9xx driver=../../../../../bus/i2c/drivers/gt9xx
+/sys/bus/i2c/devices/1-006a: bq24158 driver=../../../../../bus/i2c/drivers/bq24158
+/sys/bus/i2c/devices/2-0018: bma2xx driver=../../../../../bus/i2c/drivers/bma2xx
+/sys/bus/i2c/devices/2-004c: MC3XXX driver=
+/sys/bus/i2c/devices/i2c-0: mt-i2c driver=
+/sys/bus/i2c/devices/i2c-1: mt-i2c driver=
+/sys/bus/i2c/devices/i2c-2: mt-i2c driver=

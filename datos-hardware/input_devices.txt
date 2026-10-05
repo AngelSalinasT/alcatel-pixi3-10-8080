@@ -1,0 +1,41 @@
+I: Bus=0019 Vendor=2454 Product=6500 Version=0010
+N: Name="mtk-kpd"
+P: Phys=
+S: Sysfs=/devices/platform/mtk-kpd/input/input0
+U: Uniq=
+H: Handlers=event0 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=80 180000 0 40000800 1c0840 0 0 0
+
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="ACCDET"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input1
+U: Uniq=
+H: Handlers=event1 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=80 0 78 0 40c0000 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="hwmdata"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input2
+U: Uniq=
+H: Handlers=event2 cpufreq 
+B: PROP=0
+B: EV=5
+B: REL=2
+
+I: Bus=0000 Vendor=0000 Product=9271 Version=1040
+N: Name="mtk-tpd"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input3
+U: Uniq=
+H: Handlers=mouse0 event3 cpufreq 
+B: PROP=2
+B: EV=b
+B: KEY=400 0 0 0 0 0 0 100000 0 0 0
+B: ABS=2630000 1000003
+

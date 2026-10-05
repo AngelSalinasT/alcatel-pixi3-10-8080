@@ -1,0 +1,30 @@
+/sys/class/power_supply/battery/BatteryAverageCurrent = 552
+/sys/class/power_supply/battery/BatterySenseVoltage = 3782
+/sys/class/power_supply/battery/ChargerVoltage = 4787
+/sys/class/power_supply/battery/ISenseVoltage = 3950
+/sys/class/power_supply/battery/InstatVolt = 3782
+/sys/class/power_supply/battery/TempBattVoltage = 525
+/sys/class/power_supply/battery/TemperatureR = 6958
+/sys/class/power_supply/battery/adjust_power = -1
+/sys/class/power_supply/battery/batt_temp = 270
+/sys/class/power_supply/battery/batt_vol = 3782
+/sys/class/power_supply/battery/capacity = 35
+/sys/class/power_supply/battery/capacity_smb = 50
+/sys/class/power_supply/battery/device = 
+/sys/class/power_supply/battery/health = Good
+/sys/class/power_supply/battery/power = 
+/sys/class/power_supply/battery/present = 1
+/sys/class/power_supply/battery/present_smb = 0
+/sys/class/power_supply/battery/status = Charging
+/sys/class/power_supply/battery/status_smb = Not charging
+/sys/class/power_supply/battery/subsystem = 
+/sys/class/power_supply/battery/technology = Li-ion
+/sys/class/power_supply/battery/type = Battery
+/sys/class/power_supply/battery/uevent = POWER_SUPPLY_NAME=battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_HEALTH=Good
+POWER_SUPPLY_PRESENT=1
+POWER_SUPPLY_TECHNOLOGY=Li-ion
+POWER_SUPPLY_CAPACITY=35
+POWER_SUPPLY_BATT_VOL=3782
+POWER_SUPPLY_B

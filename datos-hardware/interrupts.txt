@@ -1,0 +1,64 @@
+           CPU0       CPU1       CPU2       CPU3       
+ 30:      17372      10072       8847       5228         -  timer
+ 64:        267          0          0          0         -  musb-hdrc.0.auto
+ 70:          0          0          0          0         -  mtk-thermal
+ 71:      31046          0          0          0         -  mtk-msdc
+ 72:          0          0          0          0         -  mtk-msdc
+ 76:        822          0          0          0         -  mt-i2c
+ 77:       6370          0          0          0         -  mt-i2c
+ 78:       4019          0          0          0         -  mt-i2c
+ 82:          0          0          0          0         -  mtk btif irq
+ 84:          1          0          0          0         -
+103:        480          0          0          0         -  mtk btif tx dma irq
+104:        510          0          0          0         -  mtk btif rx dma irq
+117:          5          0          0          0         -  ptp
+126:          0          0          0          0         -  TEE IRQ, mt_emi_mpu
+136:        304          0          0          0         -  Afe_ISR_Handle
+137:          0          0          0          0         -  M4U_device
+138:          0          0          0          0         -  M4U_device
+139:          0          0          0          0         -  M4U_device
+140:          0          0          0          0         -  M4U_device
+144:         12          0          0          0         -  mt6582-gpt
+145:       1164          0          0          0         -  EINT
+147:          0          0          0          0         -  pmic_wrap
+148:          0          0          0          0         -  mtk-kpd
+149:          0          0          0          0         -  mt-spm
+168:          0          0          0          0         -  MAU0
+169:          0          0          0          0         -  MAU1
+170:          0          0          0          0         -  MAU2
+171:          0          0          0          0         -  Vcodec
+173:          1          0          0          0         -  jpeg_enc_driver
+175:          0          0          0          0         -  isp
+184:      19622          0          0          0         -  mtk_disp
+186:       1076          0          0          0         -  mtk_disp
+187:          0          0          0          0         -  mtk_disp
+189:        195          0          0          0         -  mtkfb
+191:          0          0          0          0         -  mtk_disp
+192:          1          0          0          0         -  TEE IRQ
+193:       2154          0          0          0         -  mtk_disp
+196:          0          0          0          0         -  mtk_disp
+202:       1599          0          0          0         -  Mali_GP
+203:          0          0          0          0         -  Mali_GP_MMU
+204:          0          0          0          0         -  Mali_PP0
+205:          0          0          0          0         -  Mali_PP0_MMU
+206:          0          0          0          0         -  Mali_PP1
+207:          0          0          0          0         -  Mali_PP1_MMU
+208:          0          0          0          0         -  Mali_PP2
+209:          0          0          0          0         -  Mali_PP2_MMU
+210:          0          0          0          0         -  Mali_PP3
+211:          0          0          0          0         -  Mali_PP3_MMU
+212:       1451          0          0          0         -  Mali_PP_Broadcast
+214:          0          0          0          0         -  mtkhdmi
+216:        370          0          0          0         -  AHB_SLAVE_HIF
+217:          0          0          0          0         -  BTIF_WAKEUP_IRQ
+218:          0          0          0          0         -  BTCVSD_ISR_Handle
+219:          0          0          0          0         -  CIRQ
+FIQ:              fiq_glue
+IPI0:          0          0          0          0  CPU wakeup interrupts
+IPI1:          0         11         13         17  Timer broadcast interrupts
+IPI2:      33980      44011      33469      19000  Rescheduling interrupts
+IPI3:         41         40         51         44  Function call interrupts
+IPI4:          1         60         74         97  Single function call interrupts
+IPI5:          0          0          0          0  CPU stop interrupts
+IPI6:          0          0          0          0  CPU backtrace
+Err:          0

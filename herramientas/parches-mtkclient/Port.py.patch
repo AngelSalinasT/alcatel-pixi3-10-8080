@@ -1,0 +1,13 @@
+--- mtkclient/Library/Port.py	2026-10-04 18:34:30
++++ mtkclient/Library/Port.py	2026-10-04 18:34:30
+@@ -75,6 +75,10 @@
+                     v = ep_in(1, timeout=20)  # Do not wait 1 sec, bootloader is only active for 0.3 sec.
+                     if len(v) == 1 and v[0] == ~(startcmd[i]) & 0xFF:
+                         i += 1
++                    elif len(v) == 1 and i == 0 and v[0] == startcmd[0]:
++                        # parche local: el preloader ya hizo el saludo y solo hace eco de comandos
++                        self.info("Device already in command mode (echo), skipping handshake")
++                        return True
+                     else:
+                         i = 0
+             self.info("Device detected :)")

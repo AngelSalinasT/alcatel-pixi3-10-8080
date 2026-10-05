@@ -1,0 +1,26 @@
+From 8a6f0e80acb26a03d10e59f0fa5276f14b4e062d Mon Sep 17 00:00:00 2001
+From: Angel Salinas <85708983+AngelSalinasT@users.noreply.github.com>
+Date: Sun, 4 Oct 2026 22:30:57 -0600
+Subject: [PATCH 2/4] p8080: aceptar EXT_CSD rev 8 (la eMMC de la 8080 es 5.1;
+ sin esto mmc0 falla con -22 y el kernel hace BUG en msdc_check_init_done)
+
+---
+ drivers/mmc/core/mmc.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/mmc/core/mmc.c b/drivers/mmc/core/mmc.c
+index db069125446..fdcf7d8a74d 100644
+--- a/drivers/mmc/core/mmc.c
++++ b/drivers/mmc/core/mmc.c
+@@ -300,7 +300,7 @@ static int mmc_read_ext_csd(struct mmc_card *card, u8 *ext_csd)
+ 	}
+ 
+ 	card->ext_csd.rev = ext_csd[EXT_CSD_REV];
+-	if (card->ext_csd.rev > 7) {
++	if (card->ext_csd.rev > 8) {
+ 		pr_err("%s: unrecognised EXT_CSD revision %d\n",
+ 			mmc_hostname(card->host), card->ext_csd.rev);
+ 		err = -EINVAL;
+-- 
+2.55.0
+

@@ -1,0 +1,16 @@
+/sys/bus/i2c/devices/:
+total 0
+drwxr-xr-x    2 root     root             0 Oct  4 23:30 .
+drwxr-xr-x    4 root     root             0 Oct  4 23:28 ..
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 0-0018 -> ../../../devices/platform/mt-i2c.0/i2c-0/0-0018
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 0-007f -> ../../../devices/platform/mt-i2c.0/i2c-0/0-007f
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 1-0038 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0038
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 1-0050 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0050
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 1-0055 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0055
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 1-005d -> ../../../devices/platform/mt-i2c.1/i2c-1/1-005d
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 1-006a -> ../../../devices/platform/mt-i2c.1/i2c-1/1-006a
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 2-0018 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0018
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 2-004c -> ../../../devices/platform/mt-i2c.2/i2c-2/2-004c
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 i2c-0 -> ../../../devices/platform/mt-i2c.0/i2c-0
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 i2c-1 -> ../../../devices/platform/mt-i2c.1/i2c-1
+lrwxrwxrwx    1 root     root             0 Oct  4 23:30 i2c-2 -> ../../../devices/platform/mt-i2c.2/i2c-2
